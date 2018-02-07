@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gbk"?>
+<paras author="badcat">
+	<programpara>
+		<autostart>0</autostart>
+		<minimize>1</minimize>
+		<clientexedir>client_windows_386.exe</clientexedir>
+		<autoconn enable="1">5</autoconn>
+	</programpara>
+	<clientnodes>
+		<node id="{4E11A8AF-8F93-4326-B78F-673DF37373B4}" runstate="1" remark="">
+			<json enable="0"></json>
+			<localport allowonlylocal="1">12948</localport>
+			<kcpserverip>45.78.39.207</kcpserverip>
+			<kcpserverport>29901</kcpserverport>
+			<key enable="1">bwdrx</key>
+			<crypt enable="1">salsa20</crypt>
+			<nocomp enable="0"/>
+			<datashard enable="1">70</datashard>
+			<parityshard enable="1">30</parityshard>
+			<conn enable="0"></conn>
+			<mtu enable="1">1350</mtu>
+			<sndwnd enable="1">1024</sndwnd>
+			<rcvwnd enable="1">1024</rcvwnd>
+			<dscp enable="1">46</dscp>
+			<autoexpire enable="0"></autoexpire>
+			<mode enable="1">fast2</mode>
+			<nodelay enable="0"/>
+			<interval enable="0"></interval>
+			<resend enable="0"></resend>
+			<nc enable="0"/>
+			<acknodelay enable="0"/>
+			<keepalive enable="1">10</keepalive>
+			<sockbuf enable="0"></sockbuf>
+		</node>
+	</clientnodes>
+</paras>
